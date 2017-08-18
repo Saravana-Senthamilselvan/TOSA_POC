@@ -32,7 +32,7 @@ void Base_Manager::Start_Monitoring() {
 	Obj_Cam = new Camera1();
 	T_Camera L_Camera = Obj_Cam->Capture_Image();
 
-
+MODIFIED!!!
 	cout << "Camera ID : " << L_Camera.Camera_ID << endl;
 	cout << "Time  : " << L_Camera.Time << endl;
 	cout << "Date  : " << L_Camera.Date << endl;
