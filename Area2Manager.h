@@ -15,6 +15,7 @@ public:
 	Area2_Manager(T_Camera P_Msg_Dump[]);
 
 	void Receive_Msg(T_Camera Msg);
+	T_Camera  *getMsgDump();
 };
 
 #endif /* SRC_AREA2MANAGER_H_ */

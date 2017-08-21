@@ -16,6 +16,9 @@ public:
 	Area1_Manager(T_Camera P_Msg_Dump[]);
 
 	void Receive_Msg(T_Camera Msg);
+	T_Camera  *getMsgDump();
+
+
 
 };
 

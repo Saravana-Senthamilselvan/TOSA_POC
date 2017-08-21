@@ -10,10 +10,10 @@
 
 int main() {
 
-Base_Manager Obj;
+	T_Camera L_Camera;
+	Base_Manager Obj;
+	Obj.Start_Monitoring();
 
-Obj.Start_Monitoring();
-// modified
 
 }
 
