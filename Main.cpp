@@ -12,8 +12,8 @@ int main() {
 
 	T_Camera L_Camera;
 	Base_Manager Obj;
-
 	Obj.Start_Monitoring();
+
 
 }
 
