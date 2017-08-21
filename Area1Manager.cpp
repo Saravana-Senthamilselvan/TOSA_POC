@@ -15,3 +15,8 @@ void Area1_Manager::Receive_Msg(T_Camera Msg) {
 
 
 }
+
+T_Camera* Area1_Manager::getMsgDump() {
+
+	return Area_Manager::getMsgDump();
+}

@@ -16,13 +16,19 @@ public:
 	virtual void Receive_Msg(T_Camera Msg) = 0;
 	Area_Manager(T_Camera P_Msg_Dump[]);
 
-protected:
-	T_Camera  *getMsgDump();
+	virtual T_Camera* getMsgDump();
 
+	int getArraySize() const {
+				return Array_Size;
+			}
+
+protected:
 	void setMsgDump(T_Camera Msg);
 
 private:
+
 	T_Camera *Msg_Dump;
+	int Array_Size;
 };
 
 #endif /* SRC_AREAMANAGER_H_ */
